@@ -1,4 +1,4 @@
-package com.my;
+package com.my.proxy;
 
 import org.apache.http.client.methods.HttpGet;
 

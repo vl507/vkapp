@@ -43,7 +43,7 @@ public class Users {
 			
 			@Override
 			public String toString() {
-				return "Countrty: [title=" + this.title + "]";
+				return "Country: [title=" + this.title + "]";
 			}
 
 		}
@@ -67,20 +67,20 @@ public class Users {
 			
 			@Override
 			public String toString() {
-				return "Countrty: [title=" + this.title + "]";
+				return "City: [title=" + this.title + "]";
 			}
 
 		}
 		
-		private long id;
+		private int id;
 		private String firstName, lastName, bdate;
 		private City city;
 		private Country country;
 		
-		public long getId() {
+		public int getId() {
 			return id;
 		}
-		public void setId(long id) {
+		public void setId(int id) {
 			this.id = id;
 		}
 		public String getBdate() {
